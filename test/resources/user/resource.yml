@@ -1,0 +1,8 @@
+base: /users
+routes:
+  GET /: read
+  GET /:user: read
+  POST /: create
+  POST /:user: update
+  PUT /:user: update
+  DELETE /:user: delete

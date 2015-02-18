@@ -1,0 +1,12 @@
+db:
+  mongoose:
+    - connection: mongodb://localhost/test
+
+services:
+  - 127.0.0.1:4016
+  - 127.0.0.1:4017
+
+express:
+  trust proxy: false
+
+resource file: resource.yml

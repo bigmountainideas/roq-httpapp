@@ -1,0 +1,32 @@
+{
+  "name": "roq-httpapp",
+  "version": "0.0.0",
+  "description": "HTTP Application framework built on express.js.",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bigmountainideas/roq-httpapp"
+  },
+  "author": "Jovan Alleyne <jovan@bigmountainideas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bigmountainideas/roq-httpapp/issues"
+  },
+  "homepage": "https://github.com/bigmountainideas/roq-httpapp",
+  "dependencies": {
+    "express": "^4.11.2",
+    "coffee-script": "^1.9.0",
+    "mpromise": "^0.5.5",
+    "debug": "^2.1.1",
+    "promise": "^6.1.0",
+    "underscore": "^1.7.0",
+    "js-yaml": "^3.2.6"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^5.0.0"
+  }
+}
